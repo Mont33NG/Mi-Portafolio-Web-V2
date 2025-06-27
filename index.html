@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica de codificación y responsive -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Enlace al archivo de estilos externos -->
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=VT323&display=swap" rel="stylesheet">
+
+
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Esteban Montenegro</title>
+</head>
+
+<body>
+  <div class="contenedor-principal"></div>
+  <!-- ================================
+       HEADER - Nombre + Navegación
+  =================================== -->
+  <header class="main-header">
+    <div class="logo-nombre">
+      <!-- Logo -->
+      <img src="Assets/lool.jpg" alt="Logo" class="logo pulso-neon">
+
+        <!-- Nombre compuesto -->
+        <div class="nombre">
+          <span class="made-by">Made by</span>
+          <span class="autor">Esteban Montenegro</span>
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="nav-header">
+      <a href="#sobre-mi">SOBRE MÍ</a>
+      <a href="#experiencia">EXPERIENCIA</a>
+      <a href="#proyectos">PROYECTOS</a>
+      <a href="#contacto">CONTACTAME</a>
+    </nav>
+  </header>
+  
+
+
+
+  <!-- ================================
+       MAIN - Secciones principales.
+  =================================== -->
+  <main>
+    <!-- Sección "Sobre mí" -->
+    <section class="sobre-mi-moderno">
+      <div class="imagen-perfil">
+        <img src="Assets/esteban.jpg" alt="Esteban Montenegro">
+      </div>
+      <div class="texto-sobre-mi">
+        <p>
+          Soy <strong>Esteban Montenegro</strong>, desarrollador web independiente y estudiante apasionado por la tecnología.
+          Actualmente me estoy formando en <strong>JavaScript</strong>, <strong>Python</strong> y <strong>Java</strong>, y busco crecer profesionalmente creando experiencias digitales atractivas e intuitivas.
+        </p>
+        <p>
+          Me considero una persona <em>autodidacta, responsable y comprometida</em>. Disfruto de aprender nuevas herramientas y aplicar buenas prácticas en el desarrollo frontend.
+        </p>
+        <p>
+          Si tenés alguna consulta, no dudes en <strong>contactarte</strong> conmigo. Siempre estoy abierto a colaborar en nuevos proyectos.
+        </p>
+      </div>
+    </section>
+    
+<!-- Sección "Experiencia" -->
+<section id="experiencia" class="experiencia-section">
+  <div class="titulo-borde">
+    EXPERIENCIA PROFESIONAL
+  </div>
+
+  <div class="experiencia-contenido">
+    <div class="experiencia-resumen">
+      <p>
+        Más de 3 años de experiencia en desarrollo web, especializado en crear interfaces innovadoras 
+        con tecnologías modernas. Mi enfoque combina diseño atractivo con funcionalidad robusta.
+      </p>
+      
+      <div class="experiencia-highlights">
+        <div class="highlight-item">
+          <span class="highlight-icon">▹</span>
+          <span>Desarrollo Frontend con React y Vue.js</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">▹</span>
+          <span>Diseño UI/UX con enfoque mobile-first</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">▹</span>
+          <span>Implementación de APIs RESTful</span>
+        </div>
+      </div>
+      
+      <a href="Assets/cv-esteban-montenegro.pdf" download class="btn-descargar-cv">
+        DESCARGAR CV
+        <svg class="download-icon" viewBox="0 0 24 24">
+          <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="experiencia-timeline">
+      <div class="timeline-item">
+        <div class="timeline-fecha">2022 - Presente</div>
+        <div class="timeline-content">
+          <h3>Desarrollador Frontend Senior</h3>
+          <h4>NeonTech Solutions</h4>
+          <p>
+            Lideré el desarrollo de interfaces para aplicaciones empresariales, 
+            implementando componentes reutilizables y optimizando el rendimiento.
+          </p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-fecha">2020 - 2022</div>
+        <div class="timeline-content">
+          <h3>Desarrollador Web Junior</h3>
+          <h4>PixelHack Studios</h4>
+          <p>
+            Colaboré en proyectos de e-commerce, desarrollando features clave 
+            y mejorando la experiencia de usuario.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    
+<!-- ================================
+     Sección PROYECTOS
+=================================== -->
+<section id="proyectos">
+  <div class="contenedor-seccion"> <!-- ✅ CONTENEDOR CENTRADO -->
+
+    <h2 class="section-title">Proyectos</h2>
+
+    <div class="proyectos-grid">
+      <div class="proyecto-card">
+        <h3>FootFlex</h3>
+        <p>Plataforma de venta de sneakers con inventario y feedback de usuarios.</p>
+        <div class="proyecto-botones">
+          <a href="#" class="btn-ver">Ver</a>
+          <a href="#" class="btn-descargar">Descargar</a>
+        </div>
+      </div>
+
+      <div class="proyecto-card">
+        <h3>La Cachoneta</h3>
+        <p>Portfolio grupal con animaciones CSS y estética moderna.</p>
+        <div class="proyecto-botones">
+          <a href="#" class="btn-ver">Ver</a>
+          <a href="#" class="btn-descargar">Descargar</a>
+        </div>
+      </div>
+
+      <div class="proyecto-card">
+        <h3>Landing personal</h3>
+        <p>Mi carta de presentación web con diseño responsive y estilo único.</p>
+        <div class="proyecto-botones">
+          <a href="#" class="btn-ver">Ver</a>
+          <a href="#" class="btn-descargar">Descargar</a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- cierre del contenedor -->
+</section>
+
+
+   <!-- ================================
+       Seccion CONTACTO
+  =================================== -->
+<section id="contacto" class="contacto-section">
+  <h2 class="section-title">Contactame</h2>
+  <form class="formulario-contacto" action="https://formsubmit.co/estebanmontenegro2323@gmail.com" method="POST">
+
+    <div class="campo-formulario">
+      <label for="nombre">Nombre:</label> 
+      <input type="text" id="nombre" name="name" required>
+    </div>
+
+    <div class="campo-formulario">
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="campo-formulario">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="message" rows="5" required></textarea>
+    </div>
+
+    <!-- Campos ocultos opcionales -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+    
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+
+  <!-- ================================
+       FOOTER - Información final
+  =================================== -->
+  <footer>
+    <footer class="footer">
+      <p>© 2025 Esteban Montenegro. Todos los derechos reservados.</p>
+      
+      <div class="redes-sociales">
+        <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+          <svg width="64px" height="64px" viewBox="7.025 7.025 497.951 497.951" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-974.482" y1="1306.773" x2="-622.378" y2="1658.877" gradientTransform="translate(1054.43 -1226.825)"><stop offset="0" stop-color="#2489be"></stop><stop offset="1" stop-color="#0575b3"></stop></linearGradient><path d="M256 7.025C118.494 7.025 7.025 118.494 7.025 256S118.494 504.975 256 504.975 504.976 393.506 504.976 256C504.975 118.494 393.504 7.025 256 7.025zm-66.427 369.343h-54.665V199.761h54.665v176.607zM161.98 176.633c-17.853 0-32.326-14.591-32.326-32.587 0-17.998 14.475-32.588 32.326-32.588s32.324 14.59 32.324 32.588c.001 17.997-14.472 32.587-32.324 32.587zm232.45 199.735h-54.4v-92.704c0-25.426-9.658-39.619-29.763-39.619-21.881 0-33.312 14.782-33.312 39.619v92.704h-52.43V199.761h52.43v23.786s15.771-29.173 53.219-29.173c37.449 0 64.257 22.866 64.257 70.169l-.001 111.825z" fill="url(#a)"></path></g></svg>
+        </a>
+        <a href="https://github.com/Mont33NG" target="_blank" aria-label="GitHub">
+          <svg width="64px" height="64px" viewBox="0 -0.5 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Github-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-700.000000, -560.000000)" fill="#3E75C3"> <path d="M723.9985,560 C710.746,560 700,570.787092 700,584.096644 C700,594.740671 706.876,603.77183 716.4145,606.958412 C717.6145,607.179786 718.0525,606.435849 718.0525,605.797328 C718.0525,605.225068 718.0315,603.710086 718.0195,601.699648 C711.343,603.155898 709.9345,598.469394 709.9345,598.469394 C708.844,595.686405 707.2705,594.94548 707.2705,594.94548 C705.091,593.450075 707.4355,593.480194 707.4355,593.480194 C709.843,593.650366 711.1105,595.963499 711.1105,595.963499 C713.2525,599.645538 716.728,598.58234 718.096,597.964902 C718.3135,596.407754 718.9345,595.346062 719.62,594.743683 C714.2905,594.135281 708.688,592.069123 708.688,582.836167 C708.688,580.205279 709.6225,578.054788 711.1585,576.369634 C710.911,575.759726 710.0875,573.311058 711.3925,569.993458 C711.3925,569.993458 713.4085,569.345902 717.9925,572.46321 C719.908,571.928599 721.96,571.662047 724.0015,571.651505 C726.04,571.662047 728.0935,571.928599 730.0105,572.46321 C734.5915,569.345902 736.603,569.993458 736.603,569.993458 C737.9125,573.311058 737.089,575.759726 736.8415,576.369634 C738.3805,578.054788 739.309,580.205279 739.309,582.836167 C739.309,592.091712 733.6975,594.129257 728.3515,594.725612 C729.2125,595.469549 729.9805,596.939353 729.9805,599.18773 C729.9805,602.408949 729.9505,605.006706 729.9505,605.797328 C729.9505,606.441873 730.3825,607.191834 731.6005,606.9554 C741.13,603.762794 748,594.737659 748,584.096644 C748,570.787092 737.254,560 723.9985,560" id="Github"> </path> </g> </g> </g></svg>
+        </a>
+        <a href="https://www.instagram.com/montee_ng/" target="_blank" aria-label="Instagram">
+          <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"></rect> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"></rect> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"></rect> <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"></path> <defs> <radialGradient id="paint0_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"> <stop stop-color="#B13589"></stop> <stop offset="0.79309" stop-color="#C62F94"></stop> <stop offset="1" stop-color="#8A3AC8"></stop> </radialGradient> <radialGradient id="paint1_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"> <stop stop-color="#E0E8B7"></stop> <stop offset="0.444662" stop-color="#FB8A2E"></stop> <stop offset="0.71474" stop-color="#E2425C"></stop> <stop offset="1" stop-color="#E2425C" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint2_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"> <stop offset="0.156701" stop-color="#406ADC"></stop> <stop offset="0.467799" stop-color="#6A45BE"></stop> <stop offset="1" stop-color="#6A45BE" stop-opacity="0"></stop> </radialGradient> </defs> </g></svg>
+        </a>
+        <a href="https://twitter.com/tuusuario" target="_blank" aria-label="Twitter">
+          <svg width="64px" height="64px" viewBox="0 -4 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Twitter-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-300.000000, -164.000000)" fill="#00AAEC"> <path d="M348,168.735283 C346.236309,169.538462 344.337383,170.081618 342.345483,170.324305 C344.379644,169.076201 345.940482,167.097147 346.675823,164.739617 C344.771263,165.895269 342.666667,166.736006 340.418384,167.18671 C338.626519,165.224991 336.065504,164 333.231203,164 C327.796443,164 323.387216,168.521488 323.387216,174.097508 C323.387216,174.88913 323.471738,175.657638 323.640782,176.397255 C315.456242,175.975442 308.201444,171.959552 303.341433,165.843265 C302.493397,167.339834 302.008804,169.076201 302.008804,170.925244 C302.008804,174.426869 303.747139,177.518238 306.389857,179.329722 C304.778306,179.280607 303.256911,178.821235 301.9271,178.070061 L301.9271,178.194294 C301.9271,183.08848 305.322064,187.17082 309.8299,188.095341 C309.004402,188.33225 308.133826,188.450704 307.235077,188.450704 C306.601162,188.450704 305.981335,188.390033 305.381229,188.271578 C306.634971,192.28169 310.269414,195.2026 314.580032,195.280607 C311.210424,197.99061 306.961789,199.605634 302.349709,199.605634 C301.555203,199.605634 300.769149,199.559408 300,199.466956 C304.358514,202.327194 309.53689,204 315.095615,204 C333.211481,204 343.114633,188.615385 343.114633,175.270495 C343.114633,174.831347 343.106181,174.392199 343.089276,173.961719 C345.013559,172.537378 346.684275,170.760563 348,168.735283" id="Twitter"> </path> </g> </g> </g></svg>
+        </a>
+      </div>
+    </footer>
+  </footer>
+
+
+</body>
+</html>
